@@ -1,0 +1,86 @@
+$theme-colors : (
+
+	"primary" : #033F63,
+	"secondary" : black
+);
+
+
+// font-family: 'Spinnaker', sans-serif;
+// font-family: 'Contrail One', cursive;
+
+@import '../node_modules/bootstrap/scss/bootstrap';
+
+
+.name {
+	font-size: 65px;
+	color: white;
+	font-family: 'Spinnaker', sans-serif;
+}
+
+.subname {
+	font-size: 40px;
+	color: white;
+	font-family: 'Contrail One', cursive;
+}
+
+.techname {
+	font-size: 50px;
+	color: blue;
+	font-family: 'Contrail One', cursive;
+}
+
+.techname2 {
+	text-align: center;
+	font-size: 50px;
+	color: blue;
+	font-family: 'Contrail One', cursive;
+}
+
+.contactname {
+	font-size: 35px;
+	color: white;
+	font-family: 'Contrail One', cursive;
+}
+
+.landingpage {
+	background-image: linear-gradient(rgba(0,0,70,0.4),rgba(0,0,70,0.4)), url("./../images/landingbg.jpg");
+	height: 100vh;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.center {
+	text-align: center;
+	padding: 250px 0;
+}
+
+.aboutme {
+	height: 100vh;
+
+}
+
+.contact {
+	margin: auto;
+	text-align: center;
+}
+
+.contactform {
+	background-color: #033F63;
+	height: 80vh;
+}
+
+.tech-links {
+	width: 135px;
+	height: 125px;
+	border: 2.5px solid lightblue;
+	margin-right: 50px;
+	border-radius: 10px;
+}
+
+.social-links {
+	width: 35px;
+	height: 35px;
+	border: 2px solid lightblue;
+	margin-right: 50px;
+	border-radius: 10px;
+}
