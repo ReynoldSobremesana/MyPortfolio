@@ -67,11 +67,12 @@ $theme-colors : (
 .contactform {
 	background-color: #033F63;
 	height: 80vh;
+	width: 100%	;
 }
 
 .tech-links {
-	width: 135px;
-	height: 125px;
+	width: 125px;
+	height: 100px;
 	border: 2.5px solid lightblue;
 	margin-right: 50px;
 	border-radius: 10px;
